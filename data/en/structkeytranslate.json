@@ -14,6 +14,14 @@
 	"engines": {
 		"lucee": {"minimum_version": "", "notes": "", "docs": "https://docs.lucee.org/reference/functions/structkeytranslate.html"}
 	},
-	"examples": [],
+	"examples": [
+		{
+			"title": "StructKeytranslate function",
+			"description": "To make handling these issues easier, Lucee Server has a built-in-function called structKeyTranslate() that converts a variable which contains dots in its name into cascading structures, for example",
+			"code": "<cfscript>\nvariables[\"a.b.c\"]=\"Susi\";\nstructKeyTranslate(variables, true, true);\ndump(variables);\n</cfscript>",
+			"result": "",
+			"runnable": true
+		}
+	],
 	"links": []
 }
